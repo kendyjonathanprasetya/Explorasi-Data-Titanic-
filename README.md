@@ -25,19 +25,32 @@ Menjelaskan faktor utama yang berhubungan dengan peluang keselamatan penumpang T
 
 Langkah ini memanggil library pandas, seaborn, dan matplotlib yang dipakai untuk membaca data Titanic dan membuat visualisasi.
 
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
 # 2. Load Dataset Titanic
 
 Dataset Titanic bawaan seaborn dimuat. Dataset berisi 891 baris (penumpang) dan 15 kolom (variabel), misalnya age, sex, pclass, fare, embark_town, dan lain-lain.
+
+titanic = sns.load_dataset("titanic")
 
 # 3. Cek Data Awal
 
 info() menunjukkan ada beberapa kolom dengan data hilang: age (177 missing), deck (688 missing), embark_town (2 missing).
 
+print(titanic.info())
+
 head() menampilkan 5 baris pertama dataset. Ini membantu melihat struktur data: siapa saja penumpangnya, umur, gender, kelas tiket, dll.
+
+print(titanic.head())
 
 # 4. Visualisasi Missing Value
 
 Heatmap menunjukkan lokasi data kosong. Kolom deck paling banyak bolong, lalu age, lalu embark_town.
+
+![Heatmap](https://raw.githubusercontent.com/username/repo/main/images/heatmap.png)
+
 
 Bar chart jumlah missing memperjelas kolom mana yang perlu dibersihkan.
 
