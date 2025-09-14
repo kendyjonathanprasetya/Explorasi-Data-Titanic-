@@ -110,14 +110,10 @@ Faktor kota embarkasi memengaruhi survival karena terkait distribusi kelas.
 
 # 📝 Kesimpulan
 
-Dari hasil eksplorasi dataset Titanic, terdapat beberapa pola penting yang bisa dipelajari:
+Perempuan punya peluang selamat lebih besar dibanding laki-laki.
 
-Jenis kelamin sangat berpengaruh terhadap peluang selamat. Penumpang perempuan memiliki kemungkinan selamat lebih tinggi dibanding laki-laki.
+Penumpang dari Cherbourg cenderung lebih banyak selamat, sedangkan dari Southampton lebih sedikit.
 
-Kelas penumpang juga berhubungan erat dengan survival. Penumpang kelas 1 memiliki peluang selamat lebih besar dibanding kelas 2 dan terutama kelas 3.
+Kelas 1 dengan tiket mahal punya survival rate lebih tinggi dibanding kelas 3 dengan tiket murah.
 
-Usia memberikan indikasi bahwa anak-anak relatif lebih banyak yang selamat dibanding penumpang dewasa.
-
-Tarif tiket (fare) cenderung lebih tinggi pada penumpang yang selamat, yang sejalan dengan fakta bahwa penumpang kelas atas memiliki akses lebih besar untuk evakuasi.
-
-Kombinasi antara gender dan kelas menunjukkan bahwa perempuan di kelas 1 memiliki peluang terbesar untuk selamat, sedangkan laki-laki di kelas 3 merupakan kelompok dengan risiko paling tinggi.
+Variabel baru gabungan gender + kota embarkasi membantu memperjelas pola survival.
