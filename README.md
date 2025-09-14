@@ -1,18 +1,18 @@
 # 🛳️ Pendahuluan: Analisis Dataset Titanic
 
-Kapal RMS Titanic adalah kapal penumpang terbesar dan termewah pada masanya, yang tenggelam pada pelayaran perdananya tahun 1912 setelah menabrak gunung es. Dari lebih dari 2.200 orang yang berada di kapal, sekitar 1.500 orang tidak selamat. Tragedi ini menjadi salah satu peristiwa paling terkenal dalam sejarah dunia.
-
-Dataset Titanic kemudian banyak digunakan di dunia data science karena datanya cukup lengkap dan relevan untuk dipelajari. Dataset ini berisi informasi tentang penumpang, seperti usia, jenis kelamin, kelas penumpang, tarif tiket, hingga status keselamatan (selamat atau tidak).
+Tragedi tenggelamnya kapal Titanic merupakan salah satu peristiwa bersejarah yang banyak diteliti menggunakan data. Dataset Titanic yang tersedia di seaborn berisi informasi penumpang seperti jenis kelamin, umur, kelas tiket, harga tiket, dan kota embarkasi. Dengan data ini, kita dapat mengeksplorasi faktor-faktor apa saja yang memengaruhi peluang seorang penumpang untuk selamat. Analisis ini menggunakan pendekatan eksplorasi data (EDA) dengan bantuan visualisasi, sehingga pola dan hubungan antarvariabel dapat terlihat lebih jelas.
 
 # 🎯 Tujuan Analisis
 
-Melalui analisis ini, kita akan mencoba:
+Mengidentifikasi kondisi awal dataset, termasuk data hilang (missing value).
 
-Melihat perbandingan jumlah penumpang yang selamat dan tidak selamat.
+Mengeksplorasi distribusi data berdasarkan kategori seperti gender, kelas, dan kota embarkasi.
 
-Mengeksplorasi bagaimana faktor-faktor seperti jenis kelamin, kelas, usia, dan tarif tiket berpengaruh pada peluang keselamatan.
+Melihat hubungan antarvariabel numerik seperti kelas tiket dan harga tiket.
 
-Membuat visualisasi untuk memahami pola data secara lebih mudah dan menarik.
+Membuat variabel baru gabungan gender dan kota embarkasi untuk memperjelas pola survival.
+
+Menjelaskan faktor utama yang berhubungan dengan peluang keselamatan penumpang Titanic.
 
 # Data Awal TITANIC 
 [Open In Google Colab](https://colab.research.google.com/drive/1BBnmCH8oSt7lcCzMBUD7Fbb4kOQmeCsJ?usp=sharing#scrollTo=btn0BuO-Fcus)
